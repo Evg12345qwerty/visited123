@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моя Визитка</title>
+    <!-- Подключение Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header class="text-center my-4">
+            <h1>Привет! Я [Ваше Имя]</h1>
+            <p>Я веб-разработчик, использующий Flask и SQLite.</p>
+        </header>
+        <main>
+            <section>
+                <h2>Обо мне</h2>
+                <p>Я люблю разрабатывать приложения с помощью Python и JavaScript. Мои основные технологии:</p>
+                <ul>
+                    <li>Flask</li>
+                    <li>jQuery</li>
+                    <li>Bootstrap</li>
+                    <li>SQLite</li>
+                </ul>
+            </section>
+            <section class="my-4">
+                <h2>Контакты</h2>
+                <p>Email: [ваш_email@example.com]</p>
+                <p>Телефон: [ваш_номер_телефона]</p>
+            </section>
+        </main>
+        <footer class="text-center my-4">
+            <p>&copy; 2025 [Ваше Имя]. Все права защищены.</p>
+        </footer>
+    </div>
+</body>
+</html>
