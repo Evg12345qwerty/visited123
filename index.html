@@ -6,34 +6,57 @@
     <title>Визитка Евгения Ивахнова</title>
     <!-- Подключение Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .header {
+            background-color: #007bff;
+            color: white;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #343a40;
+            color: white;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 <body>
     <div class="container">
-        <header class="text-center my-4">
+        <header class="text-center my-4 header">
             <h1>Привет! Я Евгений Ивахнов</h1>
-            <p>Я веб-разработчик, использующий Flask и SQLite.</p>
-            <p>Мой GitHub: <a href="https://github.com/Evg12345qwerty" target="_blank">github.com/Evg12345qwerty</a></p>
+            <p>Веб-разработчик, использующий Flask и SQLite.</p>
+            <p>Мой GitHub: <a href="https://github.com/Evg12345qwerty" target="_blank" style="color: yellow;">github.com/Evg12345qwerty</a></p>
         </header>
+        
         <main>
             <section>
                 <h2>Обо мне</h2>
-                <p>Я люблю разрабатывать приложения с помощью Python и JavaScript. Мои основные технологии:</p>
+                <p>Я увлечённый веб-разработчик с опытом работы в различных проектах. Изучаю новые технологии и стремлюсь к постоянному саморазвитию.</p>
+                <h3>Основные технологии:</h3>
                 <ul>
-                    <li>Flask</li>
-                    <li>jQuery</li>
-                    <li>Bootstrap</li>
-                    <li>SQLite</li>
+                    <li>Flask - для создания веб-приложений</li>
+                    <li>jQuery - для динамического взаимодействия на стороне клиента</li>
+                    <li>Bootstrap - для быстрой и адаптивной верстки</li>
+                    <li>SQLite - для работы с базами данных</li>
                 </ul>
             </section>
+            
             <section class="my-4">
                 <h2>Контакты</h2>
                 <p>Email: <a href="mailto:qwertymju123@gmail.com">qwertymju123@gmail.com</a></p>
-                <p>Payer кошелек: P1129994931</p>
+                <p>Payer кошелек: <strong>P1129994931</strong></p>
             </section>
         </main>
+        
         <footer class="text-center my-4">
             <p>&copy; 2025 Евгений Ивахнов. Все права защищены.</p>
         </footer>
